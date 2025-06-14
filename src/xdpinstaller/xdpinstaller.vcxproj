@@ -5,6 +5,7 @@
     <TargetName>xdpinstaller</TargetName>
     <UndockedType>none</UndockedType>
     <UndockedUseDriverToolset>true</UndockedUseDriverToolset>
+    <SuppressValidation>True</SuppressValidation>
   </PropertyGroup>
   <Import Project="$(SolutionDir)src\xdp.cpp.props" />
   <ItemGroup>

@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+    <!-- <LatestWdkPlatformVersion>10.0.26100.0</LatestWdkPlatformVersion> -->
+
+    <!-- <UseDebugLibraries>false</UseDebugLibraries> -->
+    <!-- <DebugInformationFormat>ProgramDatabase</DebugInformationFormat> -->
+
+    <!-- <SpectreMitigation>false</SpectreMitigation> -->
+    <!-- <Driver_SpectreMitigation>false</Driver_SpectreMitigation> -->
+
+    <!-- bugfix: StampInf always uses local time -->
+    <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <!-- <WholeProgramOptimization>false</WholeProgramOptimization> -->
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>
